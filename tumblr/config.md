@@ -3,5 +3,5 @@ Description : Un blog de critique sur les mangas de tout genre, du shonen au sei
 Baseline : Critiquer pour aimer
 Mots clés : Manga, critique, japon
 Polices : Calluna sans
-Couleurs : Rouge #D95E40, Noir #000, Blanc #fff
+Couleurs : Bleu #529ECC, Noir #444, Blanc #fff
 URL : https://www.tumblr.com/blog/esprit-manga
