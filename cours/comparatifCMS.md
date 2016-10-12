@@ -1,19 +1,19 @@
 # Ce fichier est un comparatif des différents CMS
 
-## Définition : :ok_hand:
+## Définition : :speech_balloon:
 Les CMS sont des **sites web** reposant sur des **systèmes de gestion de contenu**, grâce à leur interface dédiée ils permettent de diffuser différents types de contenu tels que des textes, des images, des vidéos ou encore des sons. Ils fonctionnent avec une **base de données** où sont stockées les données du CMS. Ils sont entièrement personnalisable à l'aide de **templates** et **plugins** et sont aujourd'hui omniprésent. Ces sites peuvent être gérés à plusieurs grâce à des différents comptes, avec des profils et droits attribués. Il existe aussi des CMS de **e-commerce**, qui permettent de vendre des produits en ligne.
 
-## Comparatif : :speech_balloon:
+## Comparatif : :ok_hand:
 ### 1. Liste :+1:
-* Wordpress https://fr.wordpress.org/txt-download/ - automatic! [Wordpress](https://fr.wordpress.org/txt-download/)
-* Joomla https://www.joomla.fr - automatic! [Joomla](https://www.joomla.fr)
-* Drupal http://www.drupal.fr - automatic! [Drupal](http://www.drupal.fr)
-* Dotclear https://fr.dotclear.org - automatic! [Dotclear](https://fr.dotclear.org)
-* SPIP http://www.spip.net/fr_rubrique91.html - automatic! [SPIP](http://www.spip.net/fr_rubrique91.html)
+* Wordpress [Lien](https://fr.wordpress.org/txt-download/)
+* Joomla [Lien](https://www.joomla.fr)
+* Drupal [Lien](http://www.drupal.fr)
+* Dotclear [Lien](https://fr.dotclear.org)
+* SPIP [Lien](http://www.spip.net/fr_rubrique91.html)
 
 e-commerce :
-* Prestashop https://www.prestashop.com/fr/telechargement - automatic! [Prestashop](https://www.prestashop.com/fr/telechargement)
-* Magento https://www.magentocommerce.com/download - automatic! [Magento](https://www.magentocommerce.com/download)
+* Prestashop [Lien](https://www.prestashop.com/fr/telechargement)
+* Magento [Lien](https://www.magentocommerce.com/download)
 
 ### 2. Tableau :+1:
 CMS | Prix | Dernière version | Nbr plugins
