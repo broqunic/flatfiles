@@ -10,10 +10,6 @@ Les valeurs présentent dans l'en-tête sont en YAML, Front Matter.
 Création du fichier _page.html_ dans le dossier layouts => imbrication de template.
 
 
- Accueil | Contact | Equipe
- --- | --- | ---
- layout : default | layout : page | layout : page
-  | #titre | #titre
  
  
  Flatfiles, fichiers MD.
