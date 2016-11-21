@@ -4,14 +4,14 @@ Les valeurs présentent dans l'en-tête sont en YAML, Front Matter
 
 ---
 
-#Structure
+# Structure
 
-Création du fichier _"page.html"_ dans le dossier _layouts => imbrication de template
+Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de template
  Accueil | Contact | Equipe
  --- | --- | ---
  layout : default | layout : page | layout : page
  --- | --- | ---
- rien | #titre | #titre
+  | #titre | #titre
  
  Flatfiles -> fichiers MD
  _site -> répertoire des fichier générés, à ne pas modifier
