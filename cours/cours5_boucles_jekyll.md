@@ -7,6 +7,7 @@ Les valeurs présentent dans l'en-tête sont en YAML, Front Matter
 # Structure
 
 Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de template
+
  Accueil | Contact | Equipe
  --- | --- | ---
  layout : default | layout : page | layout : page
@@ -16,6 +17,7 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  Flatfiles -> fichiers MD
  _site -> répertoire des fichier générés, à ne pas modifier
  
+ 
  ## Boucles
  
  {% for page in site.pages %}
@@ -23,6 +25,7 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  {% endfor %}
  
  Permet d'afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.
+ 
  
  ## Billets de blog
  
@@ -32,7 +35,9 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  
  post.date / post.title
  
+ 
  Utiliser les boucles pour afficher les articles.
+ 
  
  Dans index.html :
  
@@ -41,6 +46,7 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
   <p>{{post.content}}</p>
   <a href="{{post.url}}">Lire l'article seul</a>
  {% endfor %}
+ 
  
  Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l'url, le contenu, le résumé...
  
