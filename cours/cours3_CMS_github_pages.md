@@ -27,7 +27,7 @@ Tout d'abord il faut installer Ruby sur le machine virtuelle sous Linux, ensuite
 ### Commandes
 _gem install jekyll_ -> permet d'installer jekyll
 
-_jekyll new "monsite" -> si besoin de créer un nouveau site
+_jekyll new "monsite"_ -> si besoin de créer un nouveau site
 
 _jekyll serve_ -> A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
 
