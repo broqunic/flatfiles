@@ -19,6 +19,7 @@ Création du fichier _page.html_ dans le dossier layouts => imbrication de templ
  Flatfiles, fichiers MD.
  dossier site, répertoire des fichier générés, à ne pas modifier.
  
+ ---
  
  ## Boucles
  
@@ -30,6 +31,7 @@ Création du fichier _page.html_ dans le dossier layouts => imbrication de templ
  
  Permet d'afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.
  
+ ---
  
  ## Billets de blog
  
