@@ -1,26 +1,26 @@
 ## Généralités
 
-Les valeurs présentent dans l'en-tête sont en YAML, Front Matter
+Les valeurs présentent dans l'en-tête sont en YAML, Front Matter.
 
 ---
 
 # Structure
 
-Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de template
+Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de template.
 
  Accueil | Contact | Equipe
  --- | --- | ---
  layout : default | layout : page | layout : page
   | #titre | #titre
  
- Flatfiles, fichiers MD
- dossier site, répertoire des fichier générés, à ne pas modifier
+ Flatfiles, fichiers MD.
+ dossier site, répertoire des fichier générés, à ne pas modifier.
  
  
  ## Boucles
  
  {% for page in site.pages %}
-  <a href="page.url">{{page.title}}</a>
+  < a href="page.url">{{page.title}}</a >
  {% endfor %}
  
  Permet d'afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.
@@ -28,7 +28,7 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  
  ## Billets de blog
  
- Créer dossier _posts pour les posts et dans le dossier _layouts le fichier posts.html
+ Créer dossier _posts pour les posts et dans le dossier _layouts le fichier posts.html.
  
  2016-11-09-titre.md
  
@@ -41,12 +41,12 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  Dans index.html :
  
  {% for post in site.posts %}
-  <h3>{{post.title}}</h3>
-  <p>{{post.content}}</p>
-  <a href="{{post.url}}">Lire l'article seul</a>
+  < h3>{{post.title}}</h3 >
+  < p>{{post.content}}</p >
+  < a href="{{post.url}}">Lire l'article seul</a >
  {% endfor %}
  
  
  Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l'url, le contenu, le résumé...
  
- -> Placer la boucle dans la page avec l'article
+ -> Placer la boucle dans la page avec l'article.
