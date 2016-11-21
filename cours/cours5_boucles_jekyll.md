@@ -13,8 +13,8 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  layout : default | layout : page | layout : page
   | #titre | #titre
  
- Flatfiles -> fichiers MD
- dossier site -> répertoire des fichier générés, à ne pas modifier
+ Flatfiles, fichiers MD
+ dossier site, répertoire des fichier générés, à ne pas modifier
  
  
  ## Boucles
