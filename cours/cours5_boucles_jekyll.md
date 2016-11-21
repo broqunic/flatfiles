@@ -9,6 +9,7 @@ Les valeurs présentent dans l'en-tête sont en YAML, Front Matter
 Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de template
 
  Accueil | Contact | Equipe
+ --- | --- | ---
  layout : default | layout : page | layout : page
   | #titre | #titre
  
