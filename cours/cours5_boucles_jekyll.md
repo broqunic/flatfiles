@@ -10,6 +10,10 @@ Les valeurs présentent dans l'en-tête sont en YAML, Front Matter.
 Création du fichier _page.html_ dans le dossier layouts => imbrication de template.
 
 
+ Accueil | Contact | Equipe
+ --- | --- | ---
+ layout : default | layout : page | layout : page
+  | #titre | #titre
  
  
  Flatfiles, fichiers MD.
@@ -17,7 +21,7 @@ Création du fichier _page.html_ dans le dossier layouts => imbrication de templ
  
  ---
  
- ## Boucles
+## Boucles
  
  
  {% for page in site.pages %}
@@ -29,7 +33,7 @@ Création du fichier _page.html_ dans le dossier layouts => imbrication de templ
  
  ---
  
- ## Billets de blog
+## Billets de blog
  
  Créer dossier _posts pour les posts et dans le dossier _layouts le fichier posts.html.
  
