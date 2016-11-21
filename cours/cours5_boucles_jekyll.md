@@ -6,12 +6,15 @@ Les valeurs présentent dans l'en-tête sont en YAML, Front Matter.
 
 # Structure
 
-Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de template.
+
+Création du fichier _page.html_ dans le dossier layouts => imbrication de template.
+
 
  Accueil | Contact | Equipe
  --- | --- | ---
  layout : default | layout : page | layout : page
   | #titre | #titre
+ 
  
  Flatfiles, fichiers MD.
  dossier site, répertoire des fichier générés, à ne pas modifier.
@@ -19,9 +22,11 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  
  ## Boucles
  
+ 
  {% for page in site.pages %}
   < a href="page.url">{{page.title}}</a >
  {% endfor %}
+ 
  
  Permet d'afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.
  
@@ -29,6 +34,7 @@ Création du fichier _"page.html"_ dans le dossier _ layouts => imbrication de t
  ## Billets de blog
  
  Créer dossier _posts pour les posts et dans le dossier _layouts le fichier posts.html.
+ 
  
  2016-11-09-titre.md
  
