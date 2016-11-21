@@ -34,7 +34,7 @@ _jekyll serve_ -> A utiliser lorsque que l'on se trouve dans le dossier racine d
 
 ### Fichiers
 
-___congif.yml__ -> fichier de configuration où l'on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.
+___congif.yml_ -> fichier de configuration où l'on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.
 
 {{site.titre}} -> affiche la valeur associé à la clé titre présente dans le fichier de config
 
