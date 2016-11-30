@@ -1,46 +1,72 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>accueil | portfolio Nicolas B</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-</head>
+<h2 id="gnralits">Généralités</h2>
 
-<body>
-<header>
-<h1>Portfolio</h1>
-<p>embauchez-moi</p>
-<!--<nav>
-  <ul>
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="equipe.html">Equipe</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
--->
+<p>Les valeurs présentent dans l’en-tête sont en YAML, Front Matter.</p>
 
-  <a href="/contact.html">contact</a>
+<hr />
 
-  <a href="/cours.html">Cours</a>
+<h1 id="structure">Structure</h1>
 
-  <a href="/cours/cours1_metiers_du_web.html"></a>
+<p>Création du fichier <em>page.html</em> dans le dossier layouts =&gt; imbrication de template.</p>
 
-  <a href="/equipe.html">equipe</a>
+<table>
+  <thead>
+    <tr>
+      <th>Accueil</th>
+      <th>Contact</th>
+      <th>Equipe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>layout : default</td>
+      <td>layout : page</td>
+      <td>layout : page</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>#titre</td>
+      <td>#titre</td>
+    </tr>
+  </tbody>
+</table>
 
-  <a href="/">accueil</a>
+<p>Flatfiles, fichiers MD.
+ dossier site, répertoire des fichier générés, à ne pas modifier.</p>
 
-  <a href="/assets/css/style.css"></a>
+<hr />
 
-</header>
+<h2 id="boucles">Boucles</h2>
 
-<section>
-  <main>
-  C'est le contenu.
-  <p>c'est le portfolio de Nicolas B.</p>
-  <h2>Les articles</h2>
-  
-    <h3>LOTR 1</h3>
-    <p><h1 id="article-lotr-1">Article LOTR 1</h1>
+<p>&lt; a href=”page.url”&gt;contact&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;Cours&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;equipe&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;accueil&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;&lt;/a &gt;</p>
+
+<p>Permet d’afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.</p>
+
+<hr />
+
+<h2 id="billets-de-blog">Billets de blog</h2>
+
+<p>Créer dossier _posts pour les posts et dans le dossier _layouts le fichier posts.html.</p>
+
+<p>2016-11-09-titre.md</p>
+
+<p>post.date / post.title</p>
+
+<p>Utiliser les boucles pour afficher les articles.</p>
+
+<p>Dans index.html :</p>
+
+<p>&lt; h3&gt;LOTR 1&lt;/h3 &gt;
+  &lt; p&gt;#Article LOTR 1</p>
 
 <p>Elen sila lumenn omentilmo, Nae saian luume’. Cormamin lindua ele lle. Saesa omentien lle, vanya sulie Namaarie. Aa’ lasser en lle coia orn n’ omenta gurtha. Aa’ i’sul nora lanne’lle. Aa’ menle nauva calen ar’ ta hwesta e’ ale’quenle. Cormamin niuve tenna’ ta elea lle au’. Lissenen ar’ maska’lalaith tenna’ lye omentuva.</p>
 
@@ -50,12 +76,12 @@
 
 <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
-</p>
-    <a href="/2016/11/09/lotr1.html">Lire la suite</a>
-  
-    <h3>Jurassicipsum 1</h3>
-    <p><h1 id="article-jurassic-ipsum-1">Article Jurassic ipsum 1</h1>
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+&lt;/p &gt;
+  &lt; a href=”/2016/11/09/lotr1.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+
+<p>&lt; h3&gt;Jurassicipsum 1&lt;/h3 &gt;
+  &lt; p&gt;#Article Jurassic ipsum 1</p>
 
 <p>A snake slithers across a tree branch, past what looks like the large iris of a flower. The flower blinks. It’s the eye of the raptor. Muldoon sees it. He raises his gun. Instead of running away again, the raptor rises slowly out of the brush, fully revealing itself to Muldoon, hissing at him. The corners of Muldoon’s mouth twitch up into a smile. He draws a bead on the animal. His finger tenses on the trigger. Suddenly, his smile vanishes, both eyes pop open, and a terrible thought sweeps across his face. His eyes flick to the side “Clever girl”</p>
 
@@ -65,20 +91,10 @@
 
 <p>You know the first attraction I ever built when I came down south from Scotland? It was a Flea Circus, Petticoat Lane. Really quite wonderful. We had a wee trapeze, and ah, a merry-go - -a carousel - - and a seesaw. They all moved, motorized of course, but people would swear they could see the fleas. “I see the fleas, mummy! Can’t you see the fleas?” Clown fleas, high wire fleas, fleas on parade… But with this place, I wanted to show them something that wasn’t an illusion, something that was real, something they could see and touch. An aim not devoid of merit.</p>
 
-<p>We can make it if we run. No, we can’t. Why not? Because we are being hunted. Oh God. In the bushes straight ahead. It’s all right. Like hell it is!</p>
-</p>
-    <a href="/2016/11/09/jurassicipsum1.html">Lire la suite</a>
-  
-  </main>
+<p>We can make it if we run. No, we can’t. Why not? Because we are being hunted. Oh God. In the bushes straight ahead. It’s all right. Like hell it is!
+&lt;/p &gt;
+  &lt; a href=”/2016/11/09/jurassicipsum1.html”&gt;Lire l’article seul&lt;/a &gt;</p>
 
-</section>
-  <article>
-    article dans le fichier default.html
-  </article>
-<footer>
-  Vous dans le footer issus de l'include.<br/>
-Nicolas B.  2016
-</footer>
+<p>Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l’url, le contenu, le résumé…</p>
 
-</body>
-</html>
+<p>-&gt; Placer la boucle dans la page avec l’article.</p>

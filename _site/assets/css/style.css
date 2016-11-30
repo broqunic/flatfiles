@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf"); }
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #444;
+  transition: color .3s ease;
+  font-weight: 700; }
+
+a:hover {
+  color: #888;
+  transition: color .3s ease; }
+
+section {
+  background: #eee; }
+
+header {
+  background: #aaa;
+  background: URL("../images/bandeau.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: "OpenSans"; }
+
+header h1 {
+  margin: 0; }
+
+h2 {
+  margin: 0;
+  padding: 20px 0; }
+
+main {
+  max-width: 45rem;
+  margin: auto; }

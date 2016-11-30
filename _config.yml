@@ -6,3 +6,7 @@ encodage: UTF-8
 telephone: 0123456789
 mail: nicolas.broquet@etu.univ-rouen.fr
 adresse: 3 chemin de l'église 41000 Blois
+
+collections:
+  cours:
+    output: true

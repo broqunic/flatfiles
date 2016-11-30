@@ -1,0 +1,42 @@
+<h2 id="tude-des-cms">Étude des CMS</h2>
+
+<p>http://cmsmatrix.org</p>
+
+<p>Communauté / volume / beaucoup sont Open source / structure en PHP</p>
+
+<ul>
+  <li>Wordpress : moteur de blogs</li>
+  <li>Flux BB / php BB : forum</li>
+  <li>Joomla! / Drupal / Typo 3 /Concrete 5 / SPIP : CMS</li>
+  <li>Prestashop / magento : e-commerce</li>
+  <li>Mediawiki : wiki</li>
+</ul>
+
+<h2 id="github-pages">Github pages</h2>
+
+<p>Github -&gt; Héberger des dépôts (Open-source)
+Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
+
+<p><strong>usernamie.github.io/flatfiles</strong>
+<em>http://broqunic.github.io/flatfiles</em></p>
+
+<p>Pour mettre en place Github pages, il suffit de se rendre dans les Settings du repository</p>
+
+<p>Il faut aussi mettre en place Jekyll, un générateur de site web static, codé en ruby. On va créer une sorte de mini CMS pendant les prochains cours.</p>
+
+<p>Tout d’abord il faut installer Ruby sur le machine virtuelle sous Linux, ensuite, on installe Jekyll.</p>
+
+<h3 id="commandes">Commandes</h3>
+<p><em>gem install jekyll</em> -&gt; permet d’installer jekyll</p>
+
+<p><em>jekyll new “monsite”</em> -&gt; si besoin de créer un nouveau site</p>
+
+<p><em>jekyll serve</em> -&gt; A utiliser lorsque que l’on se trouve dans le dossier racine de notre site, à partir d’une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.</p>
+
+<h3 id="fichiers">Fichiers</h3>
+
+<p>_congif.yml -&gt; fichier de configuration où l’on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.</p>
+
+<p>-&gt; affiche la valeur associé à la clé titre présente dans le fichier de config</p>
+
+<p>Pour les variables locales on les places dans l’en-tête des fihciers de templates entre les deux lignes de tiret.</p>

@@ -1,4 +1,9 @@
-#Cours 1 : Métiers du web
+---
+layout: cours
+nom: Cours 1 : Métiers du web
+---
+
+# Métiers du web
 
 * Développeur web :
   * Front-end

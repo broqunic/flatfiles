@@ -1,3 +1,9 @@
+---
+layout: cours
+nom: Cours 3 : Github pages
+---
+
+
 ## Étude des CMS
 
 http://cmsmatrix.org
@@ -39,4 +45,3 @@ _congif.yml -> fichier de configuration où l'on trouve des couples clés - vale
 {{site.titre}} -> affiche la valeur associé à la clé titre présente dans le fichier de config
 
 Pour les variables locales on les places dans l'en-tête des fihciers de templates entre les deux lignes de tiret.
-

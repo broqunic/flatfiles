@@ -1,3 +1,8 @@
+---
+layout: cours
+nom: Cours 4 : template include
+---
+
 ## Structure
 
 * flatfiles
@@ -5,7 +10,7 @@
   * _config.yml
 * _layouts
   * default.html
-  
+
 index -> page d'accueil.
 
 config -> variables globales.

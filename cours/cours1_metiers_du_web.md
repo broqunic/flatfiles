@@ -1,3 +1,8 @@
+---
+layout:cours
+title: Métiers du web
+---
+
 #Cours 1 : Métiers du web
 
 * Développeur web :

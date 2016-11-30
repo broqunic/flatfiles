@@ -1,3 +1,8 @@
+---
+layout: cours
+nom: Cours 2 : Initiation à github et au markdown
+---
+
 # Initiation à github et au markdown
 
 ### Mardown
@@ -24,7 +29,7 @@ Github dispose d'une interface en ligne qui permet le dépôt de fichier mais au
 
 ## Démarche à suivre
 
-### Première utilisation 
+### Première utilisation
 
 Création du compte en ligne.
 
