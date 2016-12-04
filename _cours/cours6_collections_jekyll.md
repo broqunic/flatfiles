@@ -15,17 +15,18 @@ collections:
     outpul: true
 
 Dans le fichier cours.md on reprend la boucle des posts :
+
 {% for *cours* in site.cours %}
 < p>{{*cours*.content}}</ p>< br/>
 {% endfor %}
 
 *cours* est une variable que l'on nomme comme on le souhaite.
 On ajoute une en-tête dans les cours, des méta-données, pour la collection jekyll et on créer un template cours
----
+
+- --
 layout: cours
 nom : Cours 6
----
-
+- --
 
 ---
 
@@ -44,8 +45,8 @@ Renommer le fichier style.css en style.scss
 
 On y ajoute une en-tête pour jekyll
 
----
----
+- --
+- --
 
 Puis des variables
 
@@ -53,4 +54,4 @@ $color-primary: #eee;
 
 body{background: $color-primary;}
 
-Le lien reste inchanger dans le fichier head
+Le lien reste inchanger dans le fichier head.html
