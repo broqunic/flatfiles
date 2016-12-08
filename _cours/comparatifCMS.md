@@ -1,6 +1,6 @@
 ---
 layout: cours
-nom: Cours 0 : comparatif CMS
+nom: Cours 0  comparatif CMS
 ---
 
 # Ce fichier est un comparatif des différents CMS

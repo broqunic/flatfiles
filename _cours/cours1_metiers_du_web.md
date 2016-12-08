@@ -1,6 +1,6 @@
 ---
 layout: cours
-nom: Cours 1 : Métiers du web
+nom: Cours 1 Métiers du web
 ---
 
 # Métiers du web

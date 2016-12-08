@@ -1,6 +1,6 @@
 ---
 layout: cours
-nom: Cours 2 : Initiation à github et au markdown
+nom: Cours 2  Initiation à github et au markdown
 ---
 
 # Initiation à github et au markdown

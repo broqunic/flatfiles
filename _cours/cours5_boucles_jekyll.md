@@ -1,6 +1,6 @@
 ---
 layout: cours
-nom: Cours 5 : Boucles jekyll
+nom: Cours 5  Boucles jekyll
 ---
 
 

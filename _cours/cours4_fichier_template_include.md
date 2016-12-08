@@ -1,6 +1,6 @@
 ---
 layout: cours
-nom: Cours 4 : template include
+nom: Cours 4  template include
 ---
 
 ## Structure

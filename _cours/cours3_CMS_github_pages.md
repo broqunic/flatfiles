@@ -1,6 +1,6 @@
 ---
 layout: cours
-nom: Cours 3 : Github pages
+nom: Cours 3  Github pages
 ---
 
 
