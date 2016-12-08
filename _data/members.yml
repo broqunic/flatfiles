@@ -3,6 +3,11 @@
   cursus: Bac littéraire
   motivation: devenir journaliste
   avatar: ../assets/images/myAvatar.png
-  amis:
-    - ami1: John brick
-    - ami2: Manuel Truelle
+  footballteam: marseille
+
+- nom: Greenwood Eva
+  hobbies: Golf
+  cursus: Bac scientifique
+  motivation: le soleil
+  avatar: ../assets/images/myAvatar (7).png
+  footballteam: caen
