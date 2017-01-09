@@ -38,7 +38,8 @@ gem install jekyll -> permet d'installer jekyll
 jekyll new "monsite" -> si besoin de créer un nouveau site
 ```
 ```
-jekyll serve -> A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
+jekyll serve -> A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distincte.
+Il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
 ```
 
 ### Fichiers
