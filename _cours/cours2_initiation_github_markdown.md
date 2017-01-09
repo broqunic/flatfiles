@@ -48,7 +48,7 @@ Installation de github sur un linux sur machine virtuel.
 ### Autres utilisation
 
 ```
-_git pull_ -> permet de récupérer la version la plus à jour du projet.
+git pull -> permet de récupérer la version la plus à jour du projet.
 ```
 
 ** /!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits**.
@@ -56,24 +56,33 @@ _git pull_ -> permet de récupérer la version la plus à jour du projet.
 _En cas de conflit, github ajoutera les lignes de codes conflictuelles en commentaire, il faut alors les modifier sur l'interface en ligne._
 
 ```
-_git init_ -> dit à Github de se concenter sur le dossier.
+git init -> dit à Github de se concenter sur le dossier.
 ```
-_git status_ -> permet de voir l'état des fichiers, s'ils doivent être envoyé en ligne ou non.
-
-_git add "nomfichier" / git add *_ -> permet d'ajouter les fichiers dans la liste d'attente pour l'envoie.
-
-_git commit -m "le message"_ -> permet de préparer le commit et d'y ajouter un messgae.
-
-_git push_ -> dernière étape qui permet d'envoyer les fichiers en ligne.
+```
+git status -> permet de voir l'état des fichiers, s'ils doivent être envoyé en ligne ou non.
+```
+```
+git add "nomfichier" / git add * -> permet d'ajouter les fichiers dans la liste d'attente pour l'envoie.
+```
+```
+git commit -m "le message" -> permet de préparer le commit et d'y ajouter un messgae.
+```
+```
+git push -> dernière étape qui permet d'envoyer les fichiers en ligne.
+```
 
 ### Commandes suplémentaires
 
-_git branch_ -> permet de créer une nouvelle branche pour travailler dessus sans risque.
-
-_git merde_ -> permet de fusionner les branches.
-
-_git checkout_ -> permet de basculer entre les branches.
-
-_git remote_ -> permet de supprimer une branche.
-
+```
+git branch -> permet de créer une nouvelle branche pour travailler dessus sans risque.
+```
+```
+git merde -> permet de fusionner les branches.
+```
+```
+git checkout -> permet de basculer entre les branches.
+```
+```
+git remote -> permet de supprimer une branche.
+```
 Devoir sur les tumblr, création d'un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d'un favicon et d'une bannière dans les options de template du tumblr.
