@@ -38,11 +38,11 @@ Création du dossier flatfiles qui contient l'ensemble des projets du cours de C
 Installation de github sur un linux sur machine virtuel.
 
 ```
-**git clone http://lelien.com**, permet de clonner l'architecture du compte github pour travailler en locale.
+git clone http://lelien.com -> permet de clonner l'architecture du compte github pour travailler en locale.
 ```
 
 ```
-**git config ** pour configurer le compte.
+git config -> pour configurer le compte.
 ```
 
 ### Autres utilisation
