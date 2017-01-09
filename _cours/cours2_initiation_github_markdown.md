@@ -37,20 +37,27 @@ Création du dossier flatfiles qui contient l'ensemble des projets du cours de C
 
 Installation de github sur un linux sur machine virtuel.
 
-Commande **git clone http://lelien.com**, permet de clonner l'architecture du compte github pour travailler en locale.
+```
+**git clone http://lelien.com**, permet de clonner l'architecture du compte github pour travailler en locale.
+```
 
-Commande **git config ** pour configurer le compte.
+```
+**git config ** pour configurer le compte.
+```
 
 ### Autres utilisation
 
+```
 _git pull_ -> permet de récupérer la version la plus à jour du projet.
+```
 
 ** /!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits**.
 
 _En cas de conflit, github ajoutera les lignes de codes conflictuelles en commentaire, il faut alors les modifier sur l'interface en ligne._
 
+```
 _git init_ -> dit à Github de se concenter sur le dossier.
-
+```
 _git status_ -> permet de voir l'état des fichiers, s'ils doivent être envoyé en ligne ou non.
 
 _git add "nomfichier" / git add *_ -> permet d'ajouter les fichiers dans la liste d'attente pour l'envoie.
