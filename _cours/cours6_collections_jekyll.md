@@ -7,10 +7,8 @@ nom: Cours 6  Collections jekyll
 
 Les collections ressemblent beaucoup aux pages et aux posts, à la différence qu'elles n'ont pas de dates, on peut s'en servir pour de la documentation par exemple.
 
-<<<<<<< HEAD
 =======
 
->>>>>>> be1858a8cbd732d685e55ca813e7b6acb143ddc0
 Dans le fichier _ config.yml on ajoute une ou des collections :
 Pour une collection dans le dossier _ cours
 
