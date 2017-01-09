@@ -31,17 +31,20 @@ Il faut aussi mettre en place Jekyll, un générateur de site web static, codé 
 Tout d'abord il faut installer Ruby sur le machine virtuelle sous Linux, ensuite, on installe Jekyll.
 
 ### Commandes
-_gem install jekyll_ -> permet d'installer jekyll
-
-_jekyll new "monsite"_ -> si besoin de créer un nouveau site
-
-_jekyll serve_ -> A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
-
+```
+gem install jekyll -> permet d'installer jekyll
+```
+```
+jekyll new "monsite" -> si besoin de créer un nouveau site
+```
+```
+jekyll serve -> A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
+```
 
 ### Fichiers
 
 _congif.yml -> fichier de configuration où l'on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.
-
+```
 {{site.titre}} -> affiche la valeur associé à la clé titre présente dans le fichier de config
-
+```
 Pour les variables locales on les places dans l'en-tête des fihciers de templates entre les deux lignes de tiret.
