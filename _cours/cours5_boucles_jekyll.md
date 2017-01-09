@@ -29,10 +29,11 @@ Création du fichier _page.html_ dans le dossier layouts => imbrication de templ
 
 ## Boucles
 
-
+```
  {% for page in site.pages %}
-  < a href="page.url">{{page.title}}</a >
+  <a href="page.url">{{page.title}}</a>
  {% endfor %}
+ ```
 
 
  Permet d'afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.
@@ -54,11 +55,13 @@ Création du fichier _page.html_ dans le dossier layouts => imbrication de templ
 
  Dans index.html :
 
+```
  {% for post in site.posts %}
-  < h3>{{post.title}}</h3 >
-  < p>{{post.content}}</p >
-  < a href="{{post.url}}">Lire l'article seul</a >
+  <h3>{{post.title}}</h3>
+  <p>{{post.content}}</p>
+  <a href="{{post.url}}">Lire l'article seul</a>
  {% endfor %}
+ ```
 
 
  Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l'url, le contenu, le résumé...
