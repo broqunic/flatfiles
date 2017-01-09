@@ -51,7 +51,7 @@ git config -> pour configurer le compte.
 git pull -> permet de récupérer la version la plus à jour du projet.
 ```
 
-**/!_\Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits.**
+**/!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits.**
 
 _En cas de conflit, github ajoutera les lignes de codes conflictuelles en commentaire, il faut alors les modifier sur l'interface en ligne._
 
