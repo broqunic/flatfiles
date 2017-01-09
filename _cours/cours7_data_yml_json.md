@@ -1,4 +1,7 @@
-# Cours 7 Dossier de données, YML et JSON
+---
+layout: cours
+nom: Cours 7 Dossier de données, YML et JSON
+---
 
 ## Data
 
