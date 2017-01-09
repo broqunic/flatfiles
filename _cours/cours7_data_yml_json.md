@@ -17,7 +17,9 @@ Ici on s'en sert pour des membres et des clubs de football, l'avantage est de ne
 #### Assignations
 
 - Assignation équipe de football à l'équipe de football d'un membre
-'''{% assign footballteam = {{membe.footballteam}} %}'''
+```
+{% assign footballteam = {{membe.footballteam}} %}
+```
 
 - Assignation club et valeur tableau ligue, avec condition WHERE : key, footballteam
 
