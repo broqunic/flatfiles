@@ -1,0 +1,17 @@
+<div class="product col col-4-12">
+  <a class="product" href="{{ site.baseurl }}{{ product.url }}">
+    <img src="{{ product.image }}" alt="{{ product.nom }}" width="100%" height="auto" class="thumbnail"/>
+    <p>{{ product.nom }}</p>
+  </a>
+  Matière : {{product.matiere}}<br/>
+  Longueur : {{product.longueur}}<br/><br/>
+  <button class="snipcart-add-item"
+    data-item-nom="{{ product.nom }}"
+    data-item-prix="{{ product.prix }}"
+    data-item-longueur="{{ product.longueur }}"
+    data-item-url="{{ site.baseurl }}"
+    data-item-matiere="{{ product.matiere }}">
+    Prix : {{ product.prix }}
+  </button>
+
+</div>

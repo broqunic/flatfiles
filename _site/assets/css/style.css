@@ -16,6 +16,14 @@ a:hover {
   color: #888;
   transition: color .3s ease; }
 
+nav {
+  background: #ddd;
+  padding: 12px 0px; }
+
+nav a {
+  text-transform: capitalize;
+  padding: 15px; }
+
 section {
   background: #eee; }
 
@@ -33,6 +41,37 @@ h2 {
   margin: 0;
   padding: 20px 0; }
 
+footer {
+  color: #eee;
+  background: #444;
+  padding: 1% 0;
+  text-align: center; }
+
 main {
   max-width: 45rem;
   margin: auto; }
+
+.clearfix {
+  clear: both; }
+
+.col-4-12 {
+  width: 29.33%; }
+
+.col {
+  box-sizing: border-box;
+  padding: 2%;
+  margin: 0 2%;
+  font-size: .7em;
+  float: left;
+  background: #ddd;
+  color: #333; }
+
+.col a {
+  font-size: 1.5em; }
+
+.products, .product-details {
+  padding: 3% 0 7%; }
+
+.product-details {
+  width: 72%;
+  margin: 0 auto; }

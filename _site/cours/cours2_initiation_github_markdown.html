@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <title> | portfolio Nicolas B</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+   
+
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 
-<body>
-<header>
+  <body>
+    <header>
 <h1>Portfolio</h1>
 <p>embauchez-moi</p>
 <!--<nav>
@@ -18,25 +24,29 @@
   </ul>
 </nav>
 -->
-
-  <a href="/clubs.html">Clubs</a>
-
-  <a href="/contact.html">contact</a>
-
-  <a href="/cours.html">Cours</a>
-
-  <a href="/equipe.html">equipe</a>
-
-  <a href="/">accueil</a>
-
-  <a href="/members.html">Membres</a>
-
-  <a href="/assets/css/style.css"></a>
-
+<nav>
+  
+    <a href="/clubs.html">Clubs</a>
+  
+    <a href="/contact.html">contact</a>
+  
+    <a href="/cours.html">Cours</a>
+  
+    <a href="/equipe.html">equipe</a>
+  
+    <a href="/">accueil</a>
+  
+    <a href="/members.html">Membres</a>
+  
+    <a href="/produits.html">Produits</a>
+  
+    <a href="/assets/css/style.css"></a>
+  
+</nav>
 </header>
 
-<section>
-<h2>Mes cours</h2>
+    <section class="page-content">
+      <h2>Mes cours</h2>
 
 
 <h1 id="initiation--github-et-au-markdown">Initiation à github et au markdown</h1>
@@ -75,49 +85,61 @@ Les projets sur github sont la plupart du temps accessible à tous, mais ils peu
 
 <p>Installation de github sur un linux sur machine virtuel.</p>
 
-<p>Commande <strong>git clone http://lelien.com</strong>, permet de clonner l’architecture du compte github pour travailler en locale.</p>
+<p><code class="highlighter-rouge">
+git clone http://lelien.com -&gt; permet de clonner l'architecture du compte github pour travailler en locale.
+</code></p>
 
-<p>Commande **git config ** pour configurer le compte.</p>
+<p><code class="highlighter-rouge">
+git config -&gt; pour configurer le compte.
+</code></p>
 
 <h3 id="autres-utilisation">Autres utilisation</h3>
 
-<p><em>git pull</em> -&gt; permet de récupérer la version la plus à jour du projet.</p>
+<p><code class="highlighter-rouge">
+git pull -&gt; permet de récupérer la version la plus à jour du projet.
+</code></p>
 
-<p>** /!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits**.</p>
+<p><strong>/!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits.</strong></p>
 
 <p><em>En cas de conflit, github ajoutera les lignes de codes conflictuelles en commentaire, il faut alors les modifier sur l’interface en ligne.</em></p>
 
-<p><em>git init</em> -&gt; dit à Github de se concenter sur le dossier.</p>
-
-<p><em>git status</em> -&gt; permet de voir l’état des fichiers, s’ils doivent être envoyé en ligne ou non.</p>
-
-<p><em>git add “nomfichier” / git add *</em> -&gt; permet d’ajouter les fichiers dans la liste d’attente pour l’envoie.</p>
-
-<p><em>git commit -m “le message”</em> -&gt; permet de préparer le commit et d’y ajouter un messgae.</p>
-
-<p><em>git push</em> -&gt; dernière étape qui permet d’envoyer les fichiers en ligne.</p>
+<p><code class="highlighter-rouge">
+git init -&gt; dit à Github de se concenter sur le dossier.
+</code>
+<code class="highlighter-rouge">
+git status -&gt; permet de voir l'état des fichiers, s'ils doivent être envoyé en ligne ou non.
+</code>
+<code class="highlighter-rouge">
+git add "nomfichier" / git add * -&gt; permet d'ajouter les fichiers dans la liste d'attente pour l'envoie.
+</code>
+<code class="highlighter-rouge">
+git commit -m "le message" -&gt; permet de préparer le commit et d'y ajouter un messgae.
+</code>
+<code class="highlighter-rouge">
+git push -&gt; dernière étape qui permet d'envoyer les fichiers en ligne.
+</code></p>
 
 <h3 id="commandes-suplmentaires">Commandes suplémentaires</h3>
 
-<p><em>git branch</em> -&gt; permet de créer une nouvelle branche pour travailler dessus sans risque.</p>
+<p><code class="highlighter-rouge">
+git branch -&gt; permet de créer une nouvelle branche pour travailler dessus sans risque.
+</code>
+<code class="highlighter-rouge">
+git merde -&gt; permet de fusionner les branches.
+</code>
+<code class="highlighter-rouge">
+git checkout -&gt; permet de basculer entre les branches.
+</code>
+<code class="highlighter-rouge">
+git remote -&gt; permet de supprimer une branche.
+</code>
+Devoir sur les tumblr, création d’un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d’un favicon et d’une bannière dans les options de template du tumblr.</p>
 
-<p><em>git merde</em> -&gt; permet de fusionner les branches.</p>
 
-<p><em>git checkout</em> -&gt; permet de basculer entre les branches.</p>
-
-<p><em>git remote</em> -&gt; permet de supprimer une branche.</p>
-
-<p>Devoir sur les tumblr, création d’un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d’un favicon et d’une bannière dans les options de template du tumblr.</p>
-
-
-</section>
-  <article>
-    article dans le fichier default.html
-  </article>
-<footer>
-  Vous dans le footer issus de l'include.<br/>
-Nicolas B.  2016
+    </section>
+    <footer>
+  <p>Nicolas B.  2016</p>
 </footer>
 
-</body>
+  </body>
 </html>

@@ -2,15 +2,12 @@
 ---
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body>
-{% include header.html %}
-<section>
-{{content}}
-</section>
-  <article>
-    article dans le fichier default.html
-  </article>
-{% include footer.html %}
-</body>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <section class="page-content">
+      {{content}}
+    </section>
+    {% include footer.html %}
+  </body>
 </html>

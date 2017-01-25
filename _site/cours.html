@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <title>Cours | portfolio Nicolas B</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+   
+
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 
-<body>
-<header>
+  <body>
+    <header>
 <h1>Portfolio</h1>
 <p>embauchez-moi</p>
 <!--<nav>
@@ -18,25 +24,29 @@
   </ul>
 </nav>
 -->
-
-  <a href="/clubs.html">Clubs</a>
-
-  <a href="/contact.html">contact</a>
-
-  <a href="/cours.html">Cours</a>
-
-  <a href="/equipe.html">equipe</a>
-
-  <a href="/">accueil</a>
-
-  <a href="/members.html">Membres</a>
-
-  <a href="/assets/css/style.css"></a>
-
+<nav>
+  
+    <a href="/clubs.html">Clubs</a>
+  
+    <a href="/contact.html">contact</a>
+  
+    <a href="/cours.html">Cours</a>
+  
+    <a href="/equipe.html">equipe</a>
+  
+    <a href="/">accueil</a>
+  
+    <a href="/members.html">Membres</a>
+  
+    <a href="/produits.html">Produits</a>
+  
+    <a href="/assets/css/style.css"></a>
+  
+</nav>
 </header>
 
-<section>
-<h2>Mes cours</h2>
+    <section class="page-content">
+      <h2>Mes cours</h2>
 
 
 <main>
@@ -141,39 +151,55 @@ Les projets sur github sont la plupart du temps accessible à tous, mais ils peu
 
 <p>Installation de github sur un linux sur machine virtuel.</p>
 
-<p>Commande <strong>git clone http://lelien.com</strong>, permet de clonner l’architecture du compte github pour travailler en locale.</p>
+<p><code class="highlighter-rouge">
+git clone http://lelien.com -&gt; permet de clonner l'architecture du compte github pour travailler en locale.
+</code></p>
 
-<p>Commande **git config ** pour configurer le compte.</p>
+<p><code class="highlighter-rouge">
+git config -&gt; pour configurer le compte.
+</code></p>
 
 <h3 id="autres-utilisation">Autres utilisation</h3>
 
-<p><em>git pull</em> -&gt; permet de récupérer la version la plus à jour du projet.</p>
+<p><code class="highlighter-rouge">
+git pull -&gt; permet de récupérer la version la plus à jour du projet.
+</code></p>
 
-<p>** /!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits**.</p>
+<p><strong>/!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits.</strong></p>
 
 <p><em>En cas de conflit, github ajoutera les lignes de codes conflictuelles en commentaire, il faut alors les modifier sur l’interface en ligne.</em></p>
 
-<p><em>git init</em> -&gt; dit à Github de se concenter sur le dossier.</p>
-
-<p><em>git status</em> -&gt; permet de voir l’état des fichiers, s’ils doivent être envoyé en ligne ou non.</p>
-
-<p><em>git add “nomfichier” / git add *</em> -&gt; permet d’ajouter les fichiers dans la liste d’attente pour l’envoie.</p>
-
-<p><em>git commit -m “le message”</em> -&gt; permet de préparer le commit et d’y ajouter un messgae.</p>
-
-<p><em>git push</em> -&gt; dernière étape qui permet d’envoyer les fichiers en ligne.</p>
+<p><code class="highlighter-rouge">
+git init -&gt; dit à Github de se concenter sur le dossier.
+</code>
+<code class="highlighter-rouge">
+git status -&gt; permet de voir l'état des fichiers, s'ils doivent être envoyé en ligne ou non.
+</code>
+<code class="highlighter-rouge">
+git add "nomfichier" / git add * -&gt; permet d'ajouter les fichiers dans la liste d'attente pour l'envoie.
+</code>
+<code class="highlighter-rouge">
+git commit -m "le message" -&gt; permet de préparer le commit et d'y ajouter un messgae.
+</code>
+<code class="highlighter-rouge">
+git push -&gt; dernière étape qui permet d'envoyer les fichiers en ligne.
+</code></p>
 
 <h3 id="commandes-suplmentaires">Commandes suplémentaires</h3>
 
-<p><em>git branch</em> -&gt; permet de créer une nouvelle branche pour travailler dessus sans risque.</p>
-
-<p><em>git merde</em> -&gt; permet de fusionner les branches.</p>
-
-<p><em>git checkout</em> -&gt; permet de basculer entre les branches.</p>
-
-<p><em>git remote</em> -&gt; permet de supprimer une branche.</p>
-
-<p>Devoir sur les tumblr, création d’un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d’un favicon et d’une bannière dans les options de template du tumblr.</p>
+<p><code class="highlighter-rouge">
+git branch -&gt; permet de créer une nouvelle branche pour travailler dessus sans risque.
+</code>
+<code class="highlighter-rouge">
+git merde -&gt; permet de fusionner les branches.
+</code>
+<code class="highlighter-rouge">
+git checkout -&gt; permet de basculer entre les branches.
+</code>
+<code class="highlighter-rouge">
+git remote -&gt; permet de supprimer une branche.
+</code>
+Devoir sur les tumblr, création d’un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d’un favicon et d’une bannière dans les options de template du tumblr.</p>
 </p><br />
   
   <h2>Cours 3  Github pages</h2>
@@ -206,19 +232,24 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 <p>Tout d’abord il faut installer Ruby sur le machine virtuelle sous Linux, ensuite, on installe Jekyll.</p>
 
 <h3 id="commandes">Commandes</h3>
-<p><em>gem install jekyll</em> -&gt; permet d’installer jekyll</p>
-
-<p><em>jekyll new “monsite”</em> -&gt; si besoin de créer un nouveau site</p>
-
-<p><em>jekyll serve</em> -&gt; A utiliser lorsque que l’on se trouve dans le dossier racine de notre site, à partir d’une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.</p>
+<p><code class="highlighter-rouge">
+gem install jekyll -&gt; permet d'installer jekyll
+</code>
+<code class="highlighter-rouge">
+jekyll new "monsite" -&gt; si besoin de créer un nouveau site
+</code>
+<code class="highlighter-rouge">
+jekyll serve -&gt; A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distincte.
+Il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
+</code></p>
 
 <h3 id="fichiers">Fichiers</h3>
 
-<p>_congif.yml -&gt; fichier de configuration où l’on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.</p>
-
-<p>-&gt; affiche la valeur associé à la clé titre présente dans le fichier de config</p>
-
-<p>Pour les variables locales on les places dans l’en-tête des fihciers de templates entre les deux lignes de tiret.</p>
+<p>_congif.yml -&gt; fichier de configuration où l’on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.
+<code class="highlighter-rouge">
+ -&gt; affiche la valeur associé à la clé titre présente dans le fichier de config
+</code>
+Pour les variables locales on les places dans l’en-tête des fihciers de templates entre les deux lignes de tiret.</p>
 </p><br />
   
   <h2>Cours 4  template include</h2>
@@ -303,19 +334,25 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 
 <h2 id="boucles">Boucles</h2>
 
-<p>&lt; a href=”page.url”&gt;Clubs&lt;/a &gt;</p>
+<p>```</p>
 
-<p>&lt; a href=”page.url”&gt;contact&lt;/a &gt;</p>
+<p><a href="page.url">Clubs</a></p>
 
-<p>&lt; a href=”page.url”&gt;Cours&lt;/a &gt;</p>
+<p><a href="page.url">contact</a></p>
 
-<p>&lt; a href=”page.url”&gt;equipe&lt;/a &gt;</p>
+<p><a href="page.url">Cours</a></p>
 
-<p>&lt; a href=”page.url”&gt;accueil&lt;/a &gt;</p>
+<p><a href="page.url">equipe</a></p>
 
-<p>&lt; a href=”page.url”&gt;Membres&lt;/a &gt;</p>
+<p><a href="page.url">accueil</a></p>
 
-<p>&lt; a href=”page.url”&gt;&lt;/a &gt;</p>
+<p><a href="page.url">Membres</a></p>
+
+<p><a href="page.url">Produits</a></p>
+
+<p><a href="page.url"></a></p>
+
+<p>```</p>
 
 <p>Permet d’afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.</p>
 
@@ -333,35 +370,40 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 
 <p>Dans index.html :</p>
 
-<p>&lt; h3&gt;LOTR 1&lt;/h3 &gt;
-  &lt; p&gt;#Article LOTR 1</p>
+<p>```</p>
 
-<p>Elen sila lumenn omentilmo, Nae saian luume’. Cormamin lindua ele lle. Saesa omentien lle, vanya sulie Namaarie. Aa’ lasser en lle coia orn n’ omenta gurtha. Aa’ i’sul nora lanne’lle. Aa’ menle nauva calen ar’ ta hwesta e’ ale’quenle. Cormamin niuve tenna’ ta elea lle au’. Lissenen ar’ maska’lalaith tenna’ lye omentuva.</p>
+<h3>LOTR 1</h3>
+<p>#Article LOTR 1
 
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
-<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+Elen sila lumenn omentilmo, Nae saian luume'. Cormamin lindua ele lle. Saesa omentien lle, vanya sulie Namaarie. Aa' lasser en lle coia orn n' omenta gurtha. Aa' i'sul nora lanne'lle. Aa' menle nauva calen ar' ta hwesta e' ale'quenle. Cormamin niuve tenna' ta elea lle au'. Lissenen ar' maska'lalaith tenna' lye omentuva.
 
-<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
-&lt;/p &gt;
-  &lt; a href=”/2016/11/09/lotr1.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
 
-<p>&lt; h3&gt;Jurassicipsum 1&lt;/h3 &gt;
-  &lt; p&gt;#Article Jurassic ipsum 1</p>
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
-<p>A snake slithers across a tree branch, past what looks like the large iris of a flower. The flower blinks. It’s the eye of the raptor. Muldoon sees it. He raises his gun. Instead of running away again, the raptor rises slowly out of the brush, fully revealing itself to Muldoon, hissing at him. The corners of Muldoon’s mouth twitch up into a smile. He draws a bead on the animal. His finger tenses on the trigger. Suddenly, his smile vanishes, both eyes pop open, and a terrible thought sweeps across his face. His eyes flick to the side “Clever girl”</p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+</p>
+<p><a href="/2016/11/09/lotr1.html">Lire l’article seul</a></p>
 
-<p>“Dr. Grant, my dear Dr. Sattler. Welcome to Jurassic Park.” They turn and look at the view again. It’s beautiful vista, reminiscent of an African plain. A whole herd of dinosaurs crosses the plain, maybe a hundred that we see in a quick glance alone. “Ellie, they’re absolutely - - they’re moving in herds. They do move in herds!” “We were right!” “How did you do it?! How did you do this?!”</p>
+<h3>Jurassicipsum 1</h3>
+<p>#Article Jurassic ipsum 1
 
-<p>You’re implying that a group composed entirely of female animals will… breed? Dr. Ian Malcolm: No, I’m, I’m simply saying that life, uh… finds a way.</p>
+A snake slithers across a tree branch, past what looks like the large iris of a flower. The flower blinks. It's the eye of the raptor. Muldoon sees it. He raises his gun. Instead of running away again, the raptor rises slowly out of the brush, fully revealing itself to Muldoon, hissing at him. The corners of Muldoon's mouth twitch up into a smile. He draws a bead on the animal. His finger tenses on the trigger. Suddenly, his smile vanishes, both eyes pop open, and a terrible thought sweeps across his face. His eyes flick to the side "Clever girl"
 
-<p>You know the first attraction I ever built when I came down south from Scotland? It was a Flea Circus, Petticoat Lane. Really quite wonderful. We had a wee trapeze, and ah, a merry-go - -a carousel - - and a seesaw. They all moved, motorized of course, but people would swear they could see the fleas. “I see the fleas, mummy! Can’t you see the fleas?” Clown fleas, high wire fleas, fleas on parade… But with this place, I wanted to show them something that wasn’t an illusion, something that was real, something they could see and touch. An aim not devoid of merit.</p>
+"Dr. Grant, my dear Dr. Sattler. Welcome to Jurassic Park." They turn and look at the view again. It's beautiful vista, reminiscent of an African plain. A whole herd of dinosaurs crosses the plain, maybe a hundred that we see in a quick glance alone. "Ellie, they're absolutely - - they're moving in herds. They do move in herds!" "We were right!" "How did you do it?! How did you do this?!"
 
-<p>We can make it if we run. No, we can’t. Why not? Because we are being hunted. Oh God. In the bushes straight ahead. It’s all right. Like hell it is!
-&lt;/p &gt;
-  &lt; a href=”/2016/11/09/jurassicipsum1.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+You're implying that a group composed entirely of female animals will... breed? Dr. Ian Malcolm: No, I'm, I'm simply saying that life, uh... finds a way.
+
+You know the first attraction I ever built when I came down south from Scotland? It was a Flea Circus, Petticoat Lane. Really quite wonderful. We had a wee trapeze, and ah, a merry-go - -a carousel - - and a seesaw. They all moved, motorized of course, but people would swear they could see the fleas. "I see the fleas, mummy! Can't you see the fleas?" Clown fleas, high wire fleas, fleas on parade... But with this place, I wanted to show them something that wasn't an illusion, something that was real, something they could see and touch. An aim not devoid of merit.
+
+We can make it if we run. No, we can't. Why not? Because we are being hunted. Oh God. In the bushes straight ahead. It's all right. Like hell it is!
+</p>
+<p><a href="/2016/11/09/jurassicipsum1.html">Lire l’article seul</a></p>
+
+<p>```</p>
 
 <p>Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l’url, le contenu, le résumé…</p>
 
@@ -373,33 +415,18 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 
 <p>Les collections ressemblent beaucoup aux pages et aux posts, à la différence qu’elles n’ont pas de dates, on peut s’en servir pour de la documentation par exemple.</p>
 
-<h1 id="head">«««&lt; HEAD</h1>
-
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>be1858a8cbd732d685e55ca813e7b6acb143ddc0
-Dans le fichier _ config.yml on ajoute une ou des collections :
+<p>Dans le fichier _ config.yml on ajoute une ou des collections :
 Pour une collection dans le dossier _ cours</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
 
-<p>collections :
+<p><code class="highlighter-rouge">
+collections :
   cours :
-    outpul : true</p>
+    outpul : true
+</code>
+Dans le fichier cours.md on reprend la boucle des posts :
+```</p>
 
-<p>Dans le fichier cours.md on reprend la boucle des posts :</p>
-
-<p>&lt; p&gt;&lt;h1 id="ce-fichier-est-un-comparatif-des-diffrents-cms"&gt;Ce fichier est un comparatif des différents CMS&lt;/h1&gt;</p>
+<p><h1 id="ce-fichier-est-un-comparatif-des-diffrents-cms">Ce fichier est un comparatif des différents CMS</h1>
 
 <h2 id="dfinition--speechballoon">Définition : :speech_balloon:</h2>
 <p>Les CMS sont des <strong>sites web</strong> reposant sur des <strong>systèmes de gestion de contenu</strong>, grâce à leur interface dédiée ils permettent de diffuser différents types de contenu tels que des textes, des images, des vidéos ou encore des sons. Ils fonctionnent avec une <strong>base de données</strong> où sont stockées les données du CMS. Ils sont entièrement personnalisable à l’aide de <strong>templates</strong> et <strong>plugins</strong> et sont aujourd’hui omniprésent. Ces sites peuvent être gérés à plusieurs grâce à des différents comptes, avec des profils et droits attribués. Il existe aussi des CMS de <strong>e-commerce</strong>, qui permettent de vendre des produits en ligne.</p>
@@ -424,9 +451,10 @@ Joomla | gratuit | 3.6.1 | +++
 Drupal | gratuit | 8.2.0 | +
 Dotclear | gratut | 2.10.2 | ++
 SPIP | gratuit | 3.1.3 | +</p>
-<p>&lt;/ p&gt;&lt; br/&gt;</p>
+</p>
+<p><br /></p>
 
-<p>&lt; p&gt;&lt;h1 id="mtiers-du-web"&gt;Métiers du web&lt;/h1&gt;</p>
+<p><h1 id="mtiers-du-web">Métiers du web</h1>
 
 <ul>
   <li>Développeur web :
@@ -458,9 +486,10 @@ SPIP | gratuit | 3.1.3 | +</p>
   <li>Chargé de communication</li>
   <li>Marketing</li>
 </ul>
-<p>&lt;/ p&gt;&lt; br/&gt;</p>
+</p>
+<p><br /></p>
 
-<p>&lt; p&gt;&lt;h1 id="initiation--github-et-au-markdown"&gt;Initiation à github et au markdown&lt;/h1&gt;</p>
+<p><h1 id="initiation--github-et-au-markdown">Initiation à github et au markdown</h1>
 
 <h3 id="mardown">Mardown</h3>
 <p>-&gt; langage de balise léger pour des fichiers clairs et lisibles, présentation aérée, pratique pour des fichiers d’explication tels que les fichiers <strong>readme.md</strong>
@@ -496,42 +525,59 @@ Les projets sur github sont la plupart du temps accessible à tous, mais ils peu
 
 <p>Installation de github sur un linux sur machine virtuel.</p>
 
-<p>Commande <strong>git clone http://lelien.com</strong>, permet de clonner l’architecture du compte github pour travailler en locale.</p>
+<p><code class="highlighter-rouge">
+git clone http://lelien.com -&gt; permet de clonner l'architecture du compte github pour travailler en locale.
+</code></p>
 
-<p>Commande **git config ** pour configurer le compte.</p>
+<p><code class="highlighter-rouge">
+git config -&gt; pour configurer le compte.
+</code></p>
 
 <h3 id="autres-utilisation">Autres utilisation</h3>
 
-<p><em>git pull</em> -&gt; permet de récupérer la version la plus à jour du projet.</p>
+<p><code class="highlighter-rouge">
+git pull -&gt; permet de récupérer la version la plus à jour du projet.
+</code></p>
 
-<p>** /!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits**.</p>
+<p><strong>/!\ Il faut toujours récupérer la version la plus à jour du projet avant de commancer à travailler pour éviter les conflits.</strong></p>
 
 <p><em>En cas de conflit, github ajoutera les lignes de codes conflictuelles en commentaire, il faut alors les modifier sur l’interface en ligne.</em></p>
 
-<p><em>git init</em> -&gt; dit à Github de se concenter sur le dossier.</p>
-
-<p><em>git status</em> -&gt; permet de voir l’état des fichiers, s’ils doivent être envoyé en ligne ou non.</p>
-
-<p><em>git add “nomfichier” / git add *</em> -&gt; permet d’ajouter les fichiers dans la liste d’attente pour l’envoie.</p>
-
-<p><em>git commit -m “le message”</em> -&gt; permet de préparer le commit et d’y ajouter un messgae.</p>
-
-<p><em>git push</em> -&gt; dernière étape qui permet d’envoyer les fichiers en ligne.</p>
+<p><code class="highlighter-rouge">
+git init -&gt; dit à Github de se concenter sur le dossier.
+</code>
+<code class="highlighter-rouge">
+git status -&gt; permet de voir l'état des fichiers, s'ils doivent être envoyé en ligne ou non.
+</code>
+<code class="highlighter-rouge">
+git add "nomfichier" / git add * -&gt; permet d'ajouter les fichiers dans la liste d'attente pour l'envoie.
+</code>
+<code class="highlighter-rouge">
+git commit -m "le message" -&gt; permet de préparer le commit et d'y ajouter un messgae.
+</code>
+<code class="highlighter-rouge">
+git push -&gt; dernière étape qui permet d'envoyer les fichiers en ligne.
+</code></p>
 
 <h3 id="commandes-suplmentaires">Commandes suplémentaires</h3>
 
-<p><em>git branch</em> -&gt; permet de créer une nouvelle branche pour travailler dessus sans risque.</p>
+<p><code class="highlighter-rouge">
+git branch -&gt; permet de créer une nouvelle branche pour travailler dessus sans risque.
+</code>
+<code class="highlighter-rouge">
+git merde -&gt; permet de fusionner les branches.
+</code>
+<code class="highlighter-rouge">
+git checkout -&gt; permet de basculer entre les branches.
+</code>
+<code class="highlighter-rouge">
+git remote -&gt; permet de supprimer une branche.
+</code>
+Devoir sur les tumblr, création d’un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d’un favicon et d’une bannière dans les options de template du tumblr.</p>
+</p>
+<p><br /></p>
 
-<p><em>git merde</em> -&gt; permet de fusionner les branches.</p>
-
-<p><em>git checkout</em> -&gt; permet de basculer entre les branches.</p>
-
-<p><em>git remote</em> -&gt; permet de supprimer une branche.</p>
-
-<p>Devoir sur les tumblr, création d’un fichier config.md avec titre, description, baseline, mots clés, polices, couleurs, url. Intégration d’un favicon et d’une bannière dans les options de template du tumblr.</p>
-<p>&lt;/ p&gt;&lt; br/&gt;</p>
-
-<p>&lt; p&gt;&lt;h2 id="tude-des-cms"&gt;Étude des CMS&lt;/h2&gt;</p>
+<p><h2 id="tude-des-cms">Étude des CMS</h2>
 
 <p>http://cmsmatrix.org</p>
 
@@ -560,22 +606,28 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 <p>Tout d’abord il faut installer Ruby sur le machine virtuelle sous Linux, ensuite, on installe Jekyll.</p>
 
 <h3 id="commandes">Commandes</h3>
-<p><em>gem install jekyll</em> -&gt; permet d’installer jekyll</p>
-
-<p><em>jekyll new “monsite”</em> -&gt; si besoin de créer un nouveau site</p>
-
-<p><em>jekyll serve</em> -&gt; A utiliser lorsque que l’on se trouve dans le dossier racine de notre site, à partir d’une invite de commande distince, il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.</p>
+<p><code class="highlighter-rouge">
+gem install jekyll -&gt; permet d'installer jekyll
+</code>
+<code class="highlighter-rouge">
+jekyll new "monsite" -&gt; si besoin de créer un nouveau site
+</code>
+<code class="highlighter-rouge">
+jekyll serve -&gt; A utiliser lorsque que l'on se trouve dans le dossier racine de notre site, à partir d'une invite de commande distincte.
+Il permet de mette en place un serveur pour notre site pour aplliquer nos modifications et les prévisualiser.
+</code></p>
 
 <h3 id="fichiers">Fichiers</h3>
 
-<p>_congif.yml -&gt; fichier de configuration où l’on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.</p>
+<p>_congif.yml -&gt; fichier de configuration où l’on trouve des couples clés - valeurs, ce sont les variables gloables qui serviront sur les différentes parties du template.
+<code class="highlighter-rouge">
+ -&gt; affiche la valeur associé à la clé titre présente dans le fichier de config
+</code>
+Pour les variables locales on les places dans l’en-tête des fihciers de templates entre les deux lignes de tiret.</p>
+</p>
+<p><br /></p>
 
-<p>-&gt; affiche la valeur associé à la clé titre présente dans le fichier de config</p>
-
-<p>Pour les variables locales on les places dans l’en-tête des fihciers de templates entre les deux lignes de tiret.</p>
-<p>&lt;/ p&gt;&lt; br/&gt;</p>
-
-<p>&lt; p&gt;&lt;h2 id="structure"&gt;Structure&lt;/h2&gt;</p>
+<p><h2 id="structure">Structure</h2>
 
 <ul>
   <li>flatfiles
@@ -614,9 +666,10 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 <h3 id="dtails">Détails</h3>
 
 <p>Il faut recharger le jekyll serve en cas de modification du fichier _config.yml.</p>
-<p>&lt;/ p&gt;&lt; br/&gt;</p>
+</p>
+<p><br /></p>
 
-<p>&lt; p&gt;&lt;h2 id="gnralits"&gt;Généralités&lt;/h2&gt;</p>
+<p><h2 id="gnralits">Généralités</h2>
 
 <p>Les valeurs présentent dans l’en-tête sont en YAML, Front Matter.</p>
 
@@ -655,19 +708,25 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 
 <h2 id="boucles">Boucles</h2>
 
-<p>&lt; a href=”page.url”&gt;Clubs&lt;/a &gt;</p>
+<p>```</p>
 
-<p>&lt; a href=”page.url”&gt;contact&lt;/a &gt;</p>
+<p><a href="page.url">Clubs</a></p>
 
-<p>&lt; a href=”page.url”&gt;Cours&lt;/a &gt;</p>
+<p><a href="page.url">contact</a></p>
 
-<p>&lt; a href=”page.url”&gt;equipe&lt;/a &gt;</p>
+<p><a href="page.url">Cours</a></p>
 
-<p>&lt; a href=”page.url”&gt;accueil&lt;/a &gt;</p>
+<p><a href="page.url">equipe</a></p>
 
-<p>&lt; a href=”page.url”&gt;Membres&lt;/a &gt;</p>
+<p><a href="page.url">accueil</a></p>
 
-<p>&lt; a href=”page.url”&gt;&lt;/a &gt;</p>
+<p><a href="page.url">Membres</a></p>
+
+<p><a href="page.url">Produits</a></p>
+
+<p><a href="page.url"></a></p>
+
+<p>```</p>
 
 <p>Permet d’afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.</p>
 
@@ -685,82 +744,143 @@ Github Pages -&gt; Site associé au dépôt pour présenter le projet.</p>
 
 <p>Dans index.html :</p>
 
-<p>&lt; h3&gt;LOTR 1&lt;/h3 &gt;
-  &lt; p&gt;#Article LOTR 1</p>
+<p>```</p>
 
-<p>Elen sila lumenn omentilmo, Nae saian luume’. Cormamin lindua ele lle. Saesa omentien lle, vanya sulie Namaarie. Aa’ lasser en lle coia orn n’ omenta gurtha. Aa’ i’sul nora lanne’lle. Aa’ menle nauva calen ar’ ta hwesta e’ ale’quenle. Cormamin niuve tenna’ ta elea lle au’. Lissenen ar’ maska’lalaith tenna’ lye omentuva.</p>
+<h3>LOTR 1</h3>
+<p>#Article LOTR 1
 
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
-<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+Elen sila lumenn omentilmo, Nae saian luume'. Cormamin lindua ele lle. Saesa omentien lle, vanya sulie Namaarie. Aa' lasser en lle coia orn n' omenta gurtha. Aa' i'sul nora lanne'lle. Aa' menle nauva calen ar' ta hwesta e' ale'quenle. Cormamin niuve tenna' ta elea lle au'. Lissenen ar' maska'lalaith tenna' lye omentuva.
 
-<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
-&lt;/p &gt;
-  &lt; a href=”/2016/11/09/lotr1.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
 
-<p>&lt; h3&gt;Jurassicipsum 1&lt;/h3 &gt;
-  &lt; p&gt;#Article Jurassic ipsum 1</p>
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
-<p>A snake slithers across a tree branch, past what looks like the large iris of a flower. The flower blinks. It’s the eye of the raptor. Muldoon sees it. He raises his gun. Instead of running away again, the raptor rises slowly out of the brush, fully revealing itself to Muldoon, hissing at him. The corners of Muldoon’s mouth twitch up into a smile. He draws a bead on the animal. His finger tenses on the trigger. Suddenly, his smile vanishes, both eyes pop open, and a terrible thought sweeps across his face. His eyes flick to the side “Clever girl”</p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+</p>
+<p><a href="/2016/11/09/lotr1.html">Lire l’article seul</a></p>
 
-<p>“Dr. Grant, my dear Dr. Sattler. Welcome to Jurassic Park.” They turn and look at the view again. It’s beautiful vista, reminiscent of an African plain. A whole herd of dinosaurs crosses the plain, maybe a hundred that we see in a quick glance alone. “Ellie, they’re absolutely - - they’re moving in herds. They do move in herds!” “We were right!” “How did you do it?! How did you do this?!”</p>
+<h3>Jurassicipsum 1</h3>
+<p>#Article Jurassic ipsum 1
 
-<p>You’re implying that a group composed entirely of female animals will… breed? Dr. Ian Malcolm: No, I’m, I’m simply saying that life, uh… finds a way.</p>
+A snake slithers across a tree branch, past what looks like the large iris of a flower. The flower blinks. It's the eye of the raptor. Muldoon sees it. He raises his gun. Instead of running away again, the raptor rises slowly out of the brush, fully revealing itself to Muldoon, hissing at him. The corners of Muldoon's mouth twitch up into a smile. He draws a bead on the animal. His finger tenses on the trigger. Suddenly, his smile vanishes, both eyes pop open, and a terrible thought sweeps across his face. His eyes flick to the side "Clever girl"
 
-<p>You know the first attraction I ever built when I came down south from Scotland? It was a Flea Circus, Petticoat Lane. Really quite wonderful. We had a wee trapeze, and ah, a merry-go - -a carousel - - and a seesaw. They all moved, motorized of course, but people would swear they could see the fleas. “I see the fleas, mummy! Can’t you see the fleas?” Clown fleas, high wire fleas, fleas on parade… But with this place, I wanted to show them something that wasn’t an illusion, something that was real, something they could see and touch. An aim not devoid of merit.</p>
+"Dr. Grant, my dear Dr. Sattler. Welcome to Jurassic Park." They turn and look at the view again. It's beautiful vista, reminiscent of an African plain. A whole herd of dinosaurs crosses the plain, maybe a hundred that we see in a quick glance alone. "Ellie, they're absolutely - - they're moving in herds. They do move in herds!" "We were right!" "How did you do it?! How did you do this?!"
 
-<p>We can make it if we run. No, we can’t. Why not? Because we are being hunted. Oh God. In the bushes straight ahead. It’s all right. Like hell it is!
-&lt;/p &gt;
-  &lt; a href=”/2016/11/09/jurassicipsum1.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+You're implying that a group composed entirely of female animals will... breed? Dr. Ian Malcolm: No, I'm, I'm simply saying that life, uh... finds a way.
+
+You know the first attraction I ever built when I came down south from Scotland? It was a Flea Circus, Petticoat Lane. Really quite wonderful. We had a wee trapeze, and ah, a merry-go - -a carousel - - and a seesaw. They all moved, motorized of course, but people would swear they could see the fleas. "I see the fleas, mummy! Can't you see the fleas?" Clown fleas, high wire fleas, fleas on parade... But with this place, I wanted to show them something that wasn't an illusion, something that was real, something they could see and touch. An aim not devoid of merit.
+
+We can make it if we run. No, we can't. Why not? Because we are being hunted. Oh God. In the bushes straight ahead. It's all right. Like hell it is!
+</p>
+<p><a href="/2016/11/09/jurassicipsum1.html">Lire l’article seul</a></p>
+
+<p>```</p>
 
 <p>Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l’url, le contenu, le résumé…</p>
 
 <p>-&gt; Placer la boucle dans la page avec l’article.</p>
-<p>&lt;/ p&gt;&lt; br/&gt;</p>
+</p>
+<p><br /></p>
 
-<p>&lt; p&gt;## Collections Jekyll</p>
+<p>## Collections Jekyll
 
-<p>Les collections ressemblent beaucoup aux pages et aux posts, à la différence qu’elles n’ont pas de dates, on peut s’en servir pour de la documentation par exemple.</p>
+Les collections ressemblent beaucoup aux pages et aux posts, à la différence qu'elles n'ont pas de dates, on peut s'en servir pour de la documentation par exemple.
 
-<h1 id="head-1">«««&lt; HEAD</h1>
-
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>be1858a8cbd732d685e55ca813e7b6acb143ddc0
 Dans le fichier _ config.yml on ajoute une ou des collections :
-Pour une collection dans le dossier _ cours</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
+Pour une collection dans le dossier _ cours
 
-<p>collections :
+```
+collections :
   cours :
-    outpul : true</p>
-
-<p>Dans le fichier cours.md on reprend la boucle des posts :</p>
-
-<p>{% for cours in site.cours %}
-&lt; p&gt;{{cours.content}}&lt;/ p&gt;&lt; br/&gt;
-{% endfor %}</p>
-
-<p><em>cours</em> est une variable que l’on nomme comme on le souhaite.
-On ajoute une en-tête dans les cours, des méta-données, pour la collection jekyll et on créer un template cours</p>
-
-<hr />
-<p>layout: cours
+    outpul : true
+```
+Dans le fichier cours.md on reprend la boucle des posts :
+```
+{% for cours in site.cours %}
+<p>{{cours.content}}</p><br />
+{% endfor %}
+```
+*cours* est une variable que l'on nomme comme on le souhaite.
+On ajoute une en-tête dans les cours, des méta-données, pour la collection jekyll et on créer un template cours
+```
+- - -
+layout: cours
 nom : Cours 6
-- - -</p>
+- - -
+```
+
+---
+
+##CSS
+
+On créé un dossier assets
+Dans le fichier head.html on ajoute le lien de la feuille de style en *absolute*
+```
+href="{{site.baseurl}}/assets/css/style.css"
+```
+
+---
+
+##SASS
+
+Le SASS est natif dans jekyll.
+Renommer le fichier style.css en style.scss
+
+On y ajoute une en-tête pour jekyll
+```
+- - -
+- - -
+```
+
+Puis des variables
+
+```
+$color-primary: #eee;
+body{background: $color-primary;}
+```
+Le lien reste inchanger dans le fichier head.html
+</p>
+<p><br /></p>
+
+<p>## Data
+
+Il est possible d'importer ses propres données sur un site et les afficher à partir d'un tableau **YML** ou **JSON**.
+
+Ici on s'en sert pour des membres et des clubs de football, l'avantage est de ne pas utiliser de bases de données.
+
+- Création du dossier _data qui contient les fichiers de données
+- Création d'une page membre, à travers un tableau Json, lecture des informations du tableau, et affichage selon la norme :
+**nomTableau.attribut**
+*ex: member.nom*
+
+#### Assignations
+
+- Assignation équipe de football à l'équipe de football d'un membre
+```
+{% assign footballteam = {{membre.footballteam}} %}
+```
+
+- Assignation club et valeur tableau ligue, avec condition WHERE : key, footballteam
+
+### Remarques
+Le dièse permet le commentaire en YML.
+
+Attention à modifier les URL entre la version locale et la version en ligne, sinon problèmes pour les liens de pages et d'images notament.
+</p>
+<p><br /></p>
+
+<p><code class="highlighter-rouge">
+*cours* est une variable que l'on nomme comme on le souhaite.
+On ajoute une en-tête dans les cours, des méta-données, pour la collection jekyll et on créer un template cours
+</code>
+- - -
+layout: cours
+nom : Cours 6
+- - -
+```</p>
 
 <hr />
 
@@ -768,7 +888,9 @@ nom : Cours 6
 
 <p>On créé un dossier assets
 Dans le fichier head.html on ajoute le lien de la feuille de style en <em>absolute</em>
-href=”{{site.baseurl}}/assets/css/style.css”</p>
+<code class="highlighter-rouge">
+href="/assets/css/style.css"
+</code></p>
 
 <hr />
 
@@ -777,68 +899,61 @@ href=”{{site.baseurl}}/assets/css/style.css”</p>
 <p>Le SASS est natif dans jekyll.
 Renommer le fichier style.css en style.scss</p>
 
-<p>On y ajoute une en-tête pour jekyll</p>
-
-<hr />
-<hr />
-
-<p>Puis des variables</p>
-
-<p>$color-primary: #eee;</p>
-
-<p>body{background: $color-primary;}</p>
-
-<p>Le lien reste inchanger dans le fichier head.html
-&lt;/ p&gt;&lt; br/&gt;</p>
-
-<p><em>cours</em> est une variable que l’on nomme comme on le souhaite.
-On ajoute une en-tête dans les cours, des méta-données, pour la collection jekyll et on créer un template cours</p>
-
-<hr />
-<p>layout: cours
-nom : Cours 6
-- - -</p>
-
-<hr />
-
-<h2 id="css-1">CSS</h2>
-
-<p>On créé un dossier assets
-Dans le fichier head.html on ajoute le lien de la feuille de style en <em>absolute</em>
-href=”/assets/css/style.css”</p>
-
-<hr />
-
-<h2 id="sass-1">SASS</h2>
-
-<p>Le SASS est natif dans jekyll.
-Renommer le fichier style.css en style.scss</p>
-
-<p>On y ajoute une en-tête pour jekyll</p>
-
-<hr />
-<hr />
+<p>On y ajoute une en-tête pour jekyll
+<code class="highlighter-rouge">
+- - -
+- - -
+</code></p>
 
 <p>Puis des variables</p>
 
-<p>$color-primary: #eee;</p>
+<p><code class="highlighter-rouge">
+$color-primary: #eee;
+body{background: $color-primary;}
+</code>
+Le lien reste inchanger dans le fichier head.html</p>
+</p><br />
+  
+  <h2>Cours 7 Dossier de données, YML et JSON</h2>
+<p><h2 id="data">Data</h2>
 
-<p>body{background: $color-primary;}</p>
+<p>Il est possible d’importer ses propres données sur un site et les afficher à partir d’un tableau <strong>YML</strong> ou <strong>JSON</strong>.</p>
 
-<p>Le lien reste inchanger dans le fichier head.html</p>
+<p>Ici on s’en sert pour des membres et des clubs de football, l’avantage est de ne pas utiliser de bases de données.</p>
+
+<ul>
+  <li>Création du dossier _data qui contient les fichiers de données</li>
+  <li>Création d’une page membre, à travers un tableau Json, lecture des informations du tableau, et affichage selon la norme :
+<strong>nomTableau.attribut</strong>
+<em>ex: member.nom</em></li>
+</ul>
+
+<h4 id="assignations">Assignations</h4>
+
+<ul>
+  <li>Assignation équipe de football à l’équipe de football d’un membre
+```</li>
+</ul>
+
+<p>```</p>
+
+<ul>
+  <li>Assignation club et valeur tableau ligue, avec condition WHERE : key, footballteam</li>
+</ul>
+
+<h3 id="remarques">Remarques</h3>
+<p>Le dièse permet le commentaire en YML.</p>
+
+<p>Attention à modifier les URL entre la version locale et la version en ligne, sinon problèmes pour les liens de pages et d’images notament.</p>
 </p><br />
   
   </main>
 
 
-</section>
-  <article>
-    article dans le fichier default.html
-  </article>
-<footer>
-  Vous dans le footer issus de l'include.<br/>
-Nicolas B.  2016
+    </section>
+    <footer>
+  <p>Nicolas B.  2016</p>
 </footer>
 
-</body>
+  </body>
 </html>

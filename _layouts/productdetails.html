@@ -1,0 +1,25 @@
+---
+layout: default
+head:
+  snipcart.html
+---
+<div class="product-details">
+   <h2>{{ page.nom }}</h2>
+  <img src="{{ page.image }}" alt="{{ page.nom }}" class="thumbnail"/>
+  <div class="product-description">
+    <p>
+      {{ page.content }}
+    </p>
+    <hr/>
+    Matière : {{page.matiere}}<br/>
+    Longueur : {{page.longueur}}<br/><br/>
+    <button class="snipcart-add-item"
+      data-item-nom="{{ page.nom }}"
+      data-item-prix="{{ page.prix }}"
+      data-item-longueur="{{ page.longueur }}"
+      data-item-url="{{ site.baseurl }}"
+      data-item-matiere="{{ page.matiere }}">
+      Prix : {{ page.prix }}
+    </button>
+  </div>
+</div>
